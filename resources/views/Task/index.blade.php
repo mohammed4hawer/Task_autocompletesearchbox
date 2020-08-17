@@ -10,7 +10,7 @@
    <div class="form-group">
     <form id="country_form" method="post">
     <input style="margin-bottom: 3px;" type="text" name="country_name" id="country_name" class="form-control input-lg" placeholder="Enter Country Name" />
-    <input type="submit" name="submit" id="action" value="Add to table" class="btn btn-info" />
+    {{--  <input type="submit" name="submit" id="action" value="Add to table" class="btn btn-info" />  --}}
 
     <div id="message"></div>
 </form>

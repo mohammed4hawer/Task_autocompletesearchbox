@@ -27,7 +27,7 @@ class AutocompleteController extends Controller
             $result = '<ul class="dropdown-menu" style="display:block; position:relative">';
 
             foreach ($data as $key_row) {
-                $result .= '<li><a href="#">'.$key_row->country_name.'</a></li>';
+                $result .= '<li><a href="#">'.$key_row->country_name.'</a></li>'.'<i>&nbsp;</i>'.'<input type="submit" name="submit" id="action" value="Add to table" class="btn btn-info btn-sm" />';
             }
             $result .= '</ul>';
             echo $result;
